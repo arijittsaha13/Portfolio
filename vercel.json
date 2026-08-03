@@ -1,21 +1,6 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "outputs/**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/outputs/index.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/outputs/$1"
-    }
-  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "outputDirectory": "outputs",
   "cleanUrls": true,
   "headers": [
     {
