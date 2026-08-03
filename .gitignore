@@ -1,0 +1,13 @@
+# Ignore local workspace files and caches
+node_modules/
+.DS_Store
+npm-debug.log*
+.env*
+.vscode/
+
+# Ignore Vercel build outputs if any are generated locally
+.vercel/
+
+# Keep only project source and outputs
+__pycache__/
+*.pyc
