@@ -11,3 +11,4 @@ npm-debug.log*
 # Keep only project source and outputs
 __pycache__/
 *.pyc
+.vercel
